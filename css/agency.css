@@ -166,8 +166,9 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url("../img/header-bg.jpg");
+  color: rgb(0, 0, 0);
+  background-image: url("../img/games/bumperbears/GroupPhoto.png");
+  background: -webkit-linear-gradient(bottom, rgb(41, 41, 41) 5%, rgb(91, 91, 91) 60%, rgb(119, 119, 119) 80%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
