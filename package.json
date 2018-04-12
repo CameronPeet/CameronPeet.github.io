@@ -28,8 +28,10 @@
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
+        "gulp-cli": "^2.0.1",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "popper.js": "^1.12.9"
     },
     "devDependencies": {
         "browser-sync": "2.23.6",

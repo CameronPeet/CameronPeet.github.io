@@ -1,8 +1,9 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
-  background-image: url('../img/header-bg.jpg');
+  color: $title;
+  background-image: url('../img/gradient-grey-wallpaper.jpg');
+  background: linear-gradient(rgb(41, 41, 41) 0%, rgb(51, 51, 51) 40%, rgb(41, 41, 41) 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -29,8 +30,8 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 400px;
+      padding-bottom: 400px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
