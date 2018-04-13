@@ -168,7 +168,6 @@ header.masthead {
   text-align: center;
   color: #FFFFFF;
   background-image: url("../img/gradient-grey-wallpaper.jpg");
-  background: linear-gradient(#292929 0%, #333333 40%, #292929 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -595,7 +594,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/portfolio/gradient-grey-wallpaper.png");
   background-repeat: no-repeat;
   background-position: center;
 }
