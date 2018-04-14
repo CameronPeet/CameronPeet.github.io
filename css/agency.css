@@ -8,15 +8,15 @@ p {
 }
 
 a {
-  color: #fe7f36;
+  color: #fe7138;
 }
 
 a:hover {
-  color: #fe5f03;
+  color: #fe4d05;
 }
 
 .text-primary {
-  color: #fe7f36 !important;
+  color: #fe7138 !important;
 }
 
 h1,
@@ -65,13 +65,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fe7f36;
-  border-color: #fe7f36;
+  background-color: #fe7138;
+  border-color: #fe7138;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fe6710 !important;
-  border-color: #fe6710 !important;
+  background-color: #fe5612 !important;
+  border-color: #fe5612 !important;
   color: white;
 }
 
@@ -80,12 +80,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fe7f36;
+  background: #fe7138;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fe7f36;
+  background: #fe7138;
   text-shadow: none;
 }
 
@@ -98,7 +98,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #343a40;
 }
 
 #mainNav .navbar-toggler {
@@ -108,17 +108,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fe7f36;
+  background-color: #fe7138;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fe7f36;
+  color: #fe7138;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fe5f03;
+  color: #fe4d05;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,7 +131,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fe7f36;
+  color: #fe7138;
 }
 
 @media (min-width: 992px) {
@@ -156,7 +156,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #343a40;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -245,7 +245,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 127, 54, 0.9);
+  background: rgba(254, 113, 56, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -283,7 +283,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
-  color: #212529;
+  color: #343a40;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -370,7 +370,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #343a40;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -382,7 +382,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #343a40;
 }
 
 .timeline {
@@ -450,7 +450,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fe7f36;
+  background-color: #fe7138;
 }
 
 .timeline > li .timeline-image h4 {
@@ -593,8 +593,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/portfolio/gradient-grey-wallpaper.png");
+  background-color: #343a40;
+  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -621,7 +621,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fe7f36;
+  border-color: #fe7138;
   box-shadow: none;
 }
 
@@ -687,9 +687,9 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #343a40;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fe7f36;
+  background-color: #fe7138;
 }
