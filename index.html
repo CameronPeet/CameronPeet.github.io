@@ -27,9 +27,11 @@
 
     <script src="js/gallery.js"></script>
 
+
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/Slideshow.css" rel="stylesheet">
 
   </head>
 
@@ -97,7 +99,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                       </div>
                     </div>
-                    <img class="img-fluid" src="img/games/bumperbears/01.png" alt="">
+                    <img class="img-custom" src="img/games/bumperbears/01.png" alt="">
                   </a>
                   <div class="portfolio-caption">
                     <h4>Bumper Bears</h4>
@@ -111,7 +113,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                       </div>
                     </div>
-                    <img class="img-fluid" src="img/games/bloodtale/HighresScreenshot00005.png" alt="">
+                    <img class="img-custom" src="img/games/bloodtale/HighresScreenshot02.png" alt="">
                   </a>
                   <div class="portfolio-caption">
                     <h4>Blood Tale</h4>
@@ -125,7 +127,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                       </div>
                     </div>
-                    <img class="img-fluid" src="img/games/tama/01.png" alt="">
+                    <img class="img-custom" src="img/games/tama/01.png" alt="">
                   </a>
                   <div class="portfolio-caption">
                     <h4>Tama the Tuatara</h4>
@@ -139,7 +141,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                       </div>
                     </div>
-                    <img class="img-fluid" src="img/games/racoon/randomgen.png" alt="">
+                    <img class="img-custom" src="img/games/racoon/randomgen.png" alt="">
                   </a>
                   <div class="portfolio-caption">
                     <h4>Terrain Generator</h4>
@@ -153,7 +155,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                       </div>
                     </div>
-                    <img class="img-fluid" src="img/games/godgame/01.png" alt="">
+                    <img class="img-custom" src="img/games/godgame/01.png" alt="">
                   </a>
                   <div class="portfolio-caption">
                     <h4>Calamity Goddess</h4>
@@ -167,7 +169,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                       </div>
                     </div>
-                    <img class="img-fluid" src="img/games/gamejam/girl.png" alt="">
+                    <img class="img-custom" src="img/games/gamejam/girl.png" alt="">
                   </a>
                   <div class="portfolio-caption">
                     <h4>Global Game Jam</h4>
@@ -180,6 +182,7 @@
         </div>
       </section>
 
+    
       <!-- Services -->
       <section id="services">
         <div class="container">
@@ -221,7 +224,7 @@
           </div>
         </div>
       </section>
-
+ 
       <section id="contact">
           <div class="container">
             <div class="row">
@@ -248,6 +251,9 @@
               </div>
             </div>
           </div>
+
+     
+
         </section>
     
 
@@ -257,9 +263,93 @@
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true", onload=startIdex(1)>
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+
+              <script type="text/javascript">
+
+              </script>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Bumper Bears</h2>
+                  <p class="item-intro text-muted">PLAY BY PLAY FINALIST</p>
+
+                  <!-- Slideshow container -->
+                  <div class="slideshow-container">
+
+                      <!-- Full-width images with number and caption text -->
+                      <div class="mySlides1 fade">
+                        <img src="img/games/bumperbears/Lobby.png" style="width:100%">
+                      </div>
+                    
+                      <div class="mySlides1 fade">
+                        <img src="img/games/bumperbears/01.png" style="width:100%">
+                        <div class="text">Caption Two</div>
+                      </div>
+                    
+                      <div class="mySlides1 fade">
+                        <img src="img/games/bumperbears/02.png" style="width:100%">
+                      </div>
+                    
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                    </div> 
+                  </div>
+
+                  <p class="text-muted">
+                    Bumpers was a prototype taken further in a short 4 week mini-production for student project. 
+                  </p>
+                    <p>
+                        Bumper Bears is a couch multiplayer game with bears in bumper karts trying to survive among themselves. 
+                        Challenge your friends and see who becomes the cutest survivor in the ring of ice.
+                        I was the sole programmer in this project.
+                    </p>
+                    
+                    <thead></thead>
+                  <ul class="list-inline">
+                    <li><b>Lead Programmer & Game Designer</b></li>
+                    <li>Gameplay</li>
+                    <li>Physics</li>
+                    <li>UI/UX</li>
+                    <li>Sound / VFX</li>
+                    <li></li>
+                  </ul>
+
+                  <script type="text/javascript">
+                    startIdex(0);
+                </script>
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project
+                  </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
+
           <div class="close-modal" data-dismiss="modal">
             <div class="lr">
               <div class="rl"></div>
@@ -270,19 +360,53 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Bumper Bears</h2>
-                  <p class="item-intro text-muted">PLAY BY PLAY FINALIST</p>
-                  <img class="img-fluid d-block mx-auto" src="img/games/bumperbears/groupphoto.png" alt="">
+                  <h2 class="text-uppercase">Blood Tale</h2>
+                  <p class="item-intro text-muted">Stealth Horror Game</p>
 
+                      <!-- Slideshow container -->
+                  <div class="slideshow-container">
+
+                      <!-- Full-width images with number and caption text -->
+                      <div class="mySlides2 fade">
+                        <img src="img/games/bloodtale/HighresScreenshot00005.png" style="width:100%">
+                      </div>
+                    
+                      <div class="mySlides2 fade">
+                        <img src="img/games/bloodtale/HighresScreenshot02.png" style="width:100%">
+                        <div class="text">Caption Two</div>
+                      </div>
+                    
+                      <div class="mySlides2 fade">
+                        <img src="img/games/bloodtale/blood_tale_0.jpg" style="width:100%">
+                      </div>
+                    
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                    </div> 
+                  </div>
+              
+                  <p class="text-muted">
+                      Blood Tale is our final student production project, with our Beta stage having just been completed.
+                  </p>
                   <p>
-                    Bumpers was a prototype taken further in a short 4 week mini-production. 
-                    <thead></thead>
+                      Uncover the truth in this dark, stealth based, first-person horror game. 
+                      Navigate your way through the house to uncover the truth about a mysterious disappearance. 
+                      But beware, you are not alone.
                   </p>
                   <ul class="list-inline">
-                    <li><b>Lead Programmer</b></li>
-                    <li></li>
+                      <li><b>Programmer And Designer:</b></li>
+                      <li>Framework Design</li>
+                      <li>Engine Tools</li>
+                      <li>Gameplay</li>
+                      <li>Artificial Intelligence</li>
+                      <li>UI/UX</li>
+                      <li>Sound / VFX</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+
+                  <button class="btn btn-primary" data-dismiss="modal" type="button" onclick"stopIdex()">
                     <i class="fa fa-times"></i>
                     Close Project
                   </button>
@@ -294,10 +418,13 @@
       </div>
     </div>
 
-        <!-- Modal 2 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+          
+
+           <!-- Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
+
                 <div class="close-modal" data-dismiss="modal">
                   <div class="lr">
                     <div class="rl"></div>
@@ -308,21 +435,30 @@
                     <div class="col-lg-8 mx-auto">
                       <div class="modal-body">
                         <!-- Project Details Go Here -->
-                        <h2 class="text-uppercase">Blood Tale</h2>
-                        <p class="item-intro text-muted">Stealth Horror Game</p>
-                        <img class="img-fluid d-block mx-auto" src="img/games/bloodtale/blood_tale_2.jpg" alt="">
-      
+                        <h2 class="text-uppercase">Tama the Tuatara</h2>
+                        <p class="item-intro text-muted">Educational Artifact</p>
+                        <img class="img-fluid d-block mx-auto" src="img/games/tama/01.png" alt="">
+                        <p class="text-muted">
+                            Tama the Tuatara was a prototype taken further in a short 4 week mini-production for a design brief given to us
+                            by the Auckland Museum. 
+                        </p>
                         <p>
-                          
-                          <thead></thead>
+                            Auckland Museum asked for a Digital Artifact that they could display in their new technology exhibition in the
+                            department of New Zealand Native Animals. The choices were between the Tuatara, Giant Moa, or Weta.
+
+                            <br>
+                            <br>
+
+                            Tama the Tuatara is an 3D Interactive - Visual Novel combination, that informs you about the Tuatara life-cycle.
+                            Tama is the loveable characterised Tuatara who's story you follow. TTT Also features  data-driven visual glossary
+                             and Mini Games with gameplay relative to how the Tuatara survives.
                         </p>
                         <ul class="list-inline">
-                          <li>Programmer</li>
-                          <li>I designed and implemented systems for bloodtale such as</li>
-                          <li>Interaction system and Interactables</li>
-                          <li>Lighting and Light Props</li>
-                          <li>Artificial Intelligence</li>
-                          <li>Sound and Sound Settings</li>
+                            <li><b>Programmer And Designer:</b></li>
+                            <li>Gameplay</li>
+                            <li>Framework</li>
+                            <li>Narrative</li>
+                            <li>Data-base</li>
                         </ul>
                         <button class="btn btn-primary" data-dismiss="modal" type="button">
                           <i class="fa fa-times"></i>
@@ -335,8 +471,6 @@
               </div>
             </div>
           </div>
-
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -350,6 +484,77 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+
+    <script type="text/javascript">
+
+    
+      var slideIndex = 0;
+      /* Class the members of each slideshow group with different CSS classes */
+      var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"];
+      var idex = 0;
+
+      var feald = false;
+
+      $('#portfolioModal1').on('shown.bs.modal', function (e) {
+        startIdex(0);
+      })
+
+
+      $('#portfolioModal2').on('shown.bs.modal', function (e) {
+        startIdex(1);
+        })
+
+      $('#portfolioModal3').on('shown.bs.modal', function (e) {
+      startIdex(2);
+      })   
+      
+      $('#portfolioModal4').on('shown.bs.modal', function (e) {
+      startIdex(3);
+      }) 
+
+      $('#portfolioModal5').on('shown.bs.modal', function (e) {
+      startIdex(4);
+      }) 
+
+      $('#portfolioModal5').on('shown.bs.modal', function (e) {
+      startIdex(5);
+      }) 
+
+
+      
+      function startIdex(idIdex)
+      {
+        idex = idIdex;
+        
+        showSlides();
+        TimeoutHande = setInterval(showSlides, 8000);
+      }
+
+      function stopIdex(idIdex)
+      {
+        if(TimeoutHandle)
+        {
+          setInterval(TimeoutHandle);
+          TimeoutHandle = 0;
+        }
+      }
+
+
+      function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName(slideId[idex]);
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+      } 
+
+ 
+
+    </script>
+
 
   </body>
 

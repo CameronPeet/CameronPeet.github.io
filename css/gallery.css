@@ -25,6 +25,23 @@
     margin-bottom: 30px;
 }
 
+.img-custom {
+    width: 100%;
+    height: 200px;
+  }
+
+  .img-custom2 {
+    width: 100%;
+    height: 600px;
+  }
+
+
+  .img-modal
+  {
+      width: auto;
+      height: auto;
+  }
+  
 .filter-button:hover
 {
     font-size: 18px;
@@ -50,3 +67,4 @@
 {
     margin-bottom: 30px;
 }
+
