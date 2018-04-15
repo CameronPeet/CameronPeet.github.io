@@ -564,11 +564,22 @@
       function startIdex(idIdex)
       {
         idex = idIdex;
+
+        setTimeout(start, 100);
         
+        clear();
+      }
+
+      function clear()
+      {
+        clearInterval(TimeoutHande);
+      }
+
+      function start()
+      {
         showSlides();
         TimeoutHande = setInterval(showSlides, 8000);
       }
-
       function stopIdex(idIdex)
       {
         if(TimeoutHandle)
