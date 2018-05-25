@@ -35,7 +35,6 @@ section {
 
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
   margin-bottom: 15px;
 }
 
@@ -122,6 +121,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
+  text-shadow: 1px 1px 1px black;
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
@@ -167,6 +167,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #FFFFFF;
+  background-image: url("../img/games/bumperbears/GroupPhoto.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -182,6 +183,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
+  text-shadow: 0px 0px 15px black;
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -190,6 +192,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+  text-shadow: 0px 0px 15px black;
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -602,6 +605,11 @@ section#contact .section-heading {
   color: #fff;
 }
 
+section#contact .section-spacing {
+  color: #fff;
+  word-spacing: 200%;
+}
+
 section#contact .form-group {
   margin-bottom: 25px;
 }
@@ -691,4 +699,8 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #f44e42;
+}
+
+.feature {
+  margin-top: 100px;
 }

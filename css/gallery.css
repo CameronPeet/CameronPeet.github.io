@@ -1,8 +1,15 @@
 
+:root{
+    --main-color: #f44e42;
+    --fill-color: #000000;
+    --border-color: #9b6965;
+}
+
 .gallery-title
 {
+    text-shadow: 2px 2px 2px black;
     font-size: 36px;
-    color: #fe7c36af;
+    color: var(--main-color);
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -13,15 +20,16 @@
     width: 7.5%;
     left: 46.5%;
     height: 45px;
-    border-bottom: 1px solid #5e5e5e;
+    border-bottom: 1px solid #000000;
 }
 .filter-button
 {
     font-size: 18px;
-    border: 1px solid #fe7c36af;
+    border: 1px solid var(--border-color);
     border-radius: 5px;
     text-align: center;
-    color: #fe7c36af;
+    color: white;
+    background-color: var(--main-color);
     margin-bottom: 30px;
 }
 
@@ -45,17 +53,17 @@
 .filter-button:hover
 {
     font-size: 18px;
-    border: 1px solid #fe7c36af;
+    border: 1px solid var(--main-color);
     border-radius: 5px;
     text-align: center;
-    color: #ffffff;
-    background-color: #fe7c36af;
+    color:var(--main-color);
+    background-color: white;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #fe7c36af;
-    color: white;
+    background-color: white;
+    color: var(--main-color);
 }
 
 .port-image
