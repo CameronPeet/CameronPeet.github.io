@@ -39,6 +39,7 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
+  padding: 100px 100px;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
