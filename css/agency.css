@@ -30,16 +30,26 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2.section-heading {
   font-size: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 section h3.section-subheading {
   padding: 100px 100px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section h3.section-LPsubheading {
+  padding: 25px 25px;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
